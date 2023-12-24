@@ -3,3 +3,7 @@
   tasks: 
   - name: ping the node server
     ansible.builtin.ping:
+
+    #Command to run this play book
+    #Create an inventory  file add the host name and Ip 
+    #ansible-playbook -i Inventory_file -e ansible_user=centos -e ansible_password=DevOps321 01.Playbook.yml
