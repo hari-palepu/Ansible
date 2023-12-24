@@ -1,8 +1,8 @@
----
-- hosts: client
-  become: true
-  tasks:
-  - name: Installing git sofrtware 
+- name: Installing maven
+  hosts: client
+  become: true #to run the script with root access
+  tasks: 
+  - name: Instaling nginx package
     yum:
       name: maven
-      state: present
+      state: absent
