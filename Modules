@@ -5,13 +5,15 @@ In linux we have shell cript to run list of coammds
 Ansible-Everything is a module 
 In ansible we have palybook to run list of commands 
 
-Ping module:
-To connect the server via ssh usually we need ip, user name and password.
+
+To connect the server via ssh usually we need ip, user name and password.(Password based SSH)
 In asnible also we need to give the destination server IP,Username & Password in a single command to connect.
 
 
 Ad-Hoc Command:
- ansible -i 52.87.157.40, all -e ansible_user=centos -e ansible_password=DevOps321 -m ping
+
+Ping module:
+ ansible -i <Destination IP>, all -e ansible_user=<Name> -e ansible_password=<Password> -m ping
 
  -m=module
  -i=Inventory, we can create a file and add all the server IPs which we want to ping.
