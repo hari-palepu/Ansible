@@ -1,12 +1,7 @@
-- name: Installing nginx
-  hosts: client
-  become: true #to run the script with root access
-  tasks: 
-  - name: Instaling nginx package
-    yum
-      name: httpd
-      state: present
-  - name: run nginx
-    service
-      name: nginx
-      state: started
+--- 
+- hosts: client 
+  tasks:
+  - name: file creation
+    file:
+       dest=file1.txt
+       state=touch
