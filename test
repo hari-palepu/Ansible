@@ -1,7 +1,8 @@
---- 
-- hosts: client 
+---
+- hosts: AnsibleNodes
+  become: true
   tasks:
-  - name: file creation
-    file:
-       dest=file1.txt
-       state=touch
+  - name: Installing git sofrtware 
+    yum:
+      name: maven
+      state: present
