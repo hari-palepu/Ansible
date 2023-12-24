@@ -11,7 +11,7 @@ In asnible also we need to give the destination server IP,Username & Password in
 
 
 Ad-Hoc Command:
- ansible -i 44.204.187.205, all -e ansible_user=centos -e ansible_password=DevOps321 -m ping
+ ansible -i 52.87.157.40 , all -e ansible_user=centos -e ansible_password=DevOps321 -m ping
 
  -m=module
  -i=Inventory, we can create a file and add all the server IPs which we want to ping.
