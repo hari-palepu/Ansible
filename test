@@ -1,5 +1,5 @@
 ---
-- hosts: AnsibleNodes
+- hosts: client
   become: true
   tasks:
   - name: Installing git sofrtware 
