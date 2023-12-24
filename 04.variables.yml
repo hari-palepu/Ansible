@@ -1,4 +1,6 @@
 # PLAY level variables
+#Variable holds a value we can use it anywhere
+
 - name: variables from PLAY level
   hosts: localhost
   vars:
