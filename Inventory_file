@@ -1,2 +1,7 @@
 [client]
 172.31.82.106
+
+[localhost]
+Course="Devops"
+Trainer="Sivakumar"
+Duration="110Hrs"
