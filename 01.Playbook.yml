@@ -9,3 +9,4 @@
 #ansible-playbook -i <Inventory file name> -e ansible_user=<username> -e ansible_password=<passwrd> <Playbook name>
 #To run shell script - sh <Shellscriptname>.sh
 #To run Playbook - ansible-playbook <Playbook name>.yml
+#To check the palybook syntax use --syntax-check 
