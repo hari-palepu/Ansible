@@ -1,6 +1,9 @@
 [client]
 172.31.82.106
 
+[localhost]
+localhost
+
 [localhost:vars]
 Course="Devops"
 Trainer="Sivakumar"
