@@ -1,6 +1,6 @@
-- name: Passing the variables as arguments
+- name: variables from PLAY level
   hosts: localhost
   tasks:
   - name: check variables
     ansible.builtin.debug:
-    msg: "Hello {{PERSON}}, Good {{WISHES}}"
+      msg: "Hello {{PERSON}}, Good {{WISHES}}"
