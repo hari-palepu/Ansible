@@ -1,0 +1,7 @@
+---
+- name: Passing the variables as arguments while running the script
+  hosts: localhost
+  tasks:
+  - name: Check the variables
+    ansible.builtin.debug:
+    msg: "Hello {{PERSON}}, Good {{Wishes}}"
