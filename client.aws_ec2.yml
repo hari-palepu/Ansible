@@ -5,4 +5,4 @@ region:
   - us-east-1
 filters:
   tag:Name:
-  - Windows #name of the host in aws 
+  - client #name of the host in aws 
