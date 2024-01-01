@@ -6,3 +6,10 @@
 
 
 #We are giving our username nad password in terminal or ansible.cfg file which is not secure so use vault.
+
+#The command to ru the play book: ansible-playbook sample-playbook.yml
+#vault passwrd is devops
+
+#if "ask_vault_pass=True" is not configured in ansible.cfg then used the below command.
+#ansible-playbook sample-playbook.yml --ask-vault-pass
+
