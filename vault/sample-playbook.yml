@@ -5,7 +5,7 @@
     ansible.builtin.ping:
 
 
-#We are giving our username nad password in terminal or ansible.cfg file which is not secure so use vault.
+#We are giving our username & password in terminal AND ansible.cfg file which is not secure so use vault.
 
 #The command to ru the play book: ansible-playbook sample-playbook.yml
 #vault passwrd is devops
