@@ -1,11 +1,10 @@
 [client]
-172.31.17.177  #IP or DNS
+172.31.21.198  #IP or DNS
 
 [localhost]
 localhost #To run in local machine 
 
-[Windows]
-172.31.92.4
+
 
 [localhost:vars]
 Course="Devops"
